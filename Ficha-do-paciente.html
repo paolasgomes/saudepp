@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Atendimento do profissional</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="styles/preset.css" />
+    <link rel="stylesheet" href="styles/fichaDoPaciente.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Atendimento de Enfermagem</h1>
+      <div>
+        <p>Unidade: ESF JOÃO DOMINGOS NETTO</p>
+        <p>Usuário: (00000) Bruna Lima Bezerra</p>
+      </div>
+    </header>
+    <section>
+      <p>
+        PROFISSIONAL:
+        <select name="select" id="">
+          <option value="valor01">BRUNA LIMA BEZERRA</option>
+          <option value="valor22">DIEGO APARECIDO SANTOS DE SOUZA</option>
+          <option value="valor33">JAINE VITÓRIA LACERDA BATISTA</option>
+          <option value="valor24">PAOLA DA SILVA GOMES</option>
+          <option value="valor55">NATALIA SOUZA DA SILVA</option>
+          <option value="valor26">MARCELA APARECIDA RIBEIRO FERREIRA</option>
+          <option value="valor27">LAISA FRANCIELE THEODORO DA SILVA</option>
+          <option value="valor28">ALESSANDRA VAZ</option>
+          <option value="valor29">JULIANA FERREIRA DA SILVA</option>
+          <option value="valor30">GABRIELA DE SOUZA COQUE</option>
+          <option value="valor31">KARLA DA CRUZ SILVA</option>
+        </select>
+      </p>
+      <p>
+        PACIENTE:
+        <select name="select" id="">
+          <option value="valor02">DIEGO APARECIDO SANTOS DE SOUZA</option>
+          <option value="valor03">JAINE VITÓRIA LACERDA BATISTA</option>
+          <option value="valor04">PAOLA DA SILVA GOMES</option>
+          <option value="valor05">NATALIA SOUZA DA SILVA</option>
+          <option value="valor06">MARCELA APARECIDA RIBEIRO FERREIRA</option>
+          <option value="valor07">LAISA FRANCIELE THEODORO DA SILVA</option>
+          <option value="valor08">ALESSANDRA VAZ</option>
+          <option value="valor09">JULIANA FERREIRA DA SILVA</option>
+          <option value="valor10">GABRIELA DE SOUZA COQUE</option>
+          <option value="valor11">KARLA DA CRUZ SILVA</option>
+        </select>
+      </p>
+    </section>
+
+    <section class="infoOfClient">
+      <p>PACIENTE: FULANA DA SILVA</p>
+      <p>Dt Nasc: 28/01/1999</p>
+      <p>Data: 18/10/2022</p>
+    </section>
+
+    <section class="sinaisVitais">
+      <div class="Biometria">
+        <h2>Biometria</h2>
+        <p>
+          Peso: <input type="text" /><br />
+          Altura: <input type="text" /><br />
+          IMC: <input type="text" />
+        </p>
+      </div>
+
+      <div class="sinaisVitais">
+        <h2>Sinais Vitais</h2>
+        <p>
+          PA <input type="text" />X<input type="text" /><br />
+          Saturação: <input type="text" />
+        </p>
+      </div>
+
+      <div class="Glicemia">
+        <h2>Glicemia</h2>
+        <p><input type="text" />mg/dL</p>
+      </div>
+    </section>
+
+    <section class="typeOfAtend">
+      <label for="test">
+        <input id="test" type="checkbox" name="field name" value="Initial value" />
+        RASTREAMENTO DE CÂNCER DE COLO DE ÚTERO
+      </label>
+      
+        <label for="test2">
+          <input id="test2" type="checkbox" name="field name" value="Initial value" />
+          SAÚDE SEXUAL E REPRODUTIVA
+        </label>
+    
+    </section>
+
+    <section class="dadosClinicos">
+      <p>Dados Clinicos:</p>
+      <textarea rows="8" cols="150"></textarea>
+    </section>
+
+    <section class="procediments">
+      <h2 class="proced">Procedimentos/Pequenas Cirurgias</h2>
+      <label for="checkbox1">
+        <input id="checkbox1" type="checkbox" name="field name" value="Initial value" />
+        COLETA DE MATERIAL DO COLO DE ÚTERO PARA EXAME CITOPATOLÓGICO
+      </label>
+      <label for="checkbox3">
+        <input id="checkbox3" type="checkbox" name="field name" value="Initial value" />
+        TESTE RÁPIDO PARA SÍFILIS
+      </label>
+      <label class="checkbox4">
+        <input id="checkbox4" type="checkbox" name="field name" value="Initial value" />
+        TESTE RÁPIDO PARA DETECÇÃO DE HEPATITE
+      </label>
+    </section>
+
+    <div class="request">
+      <span
+        ><a
+          href="download/FormularioColoDoUtero.pdf"
+          target="_blank"
+          rel="arquivopdf"
+          type="application.pdf"
+          >Requerimento Colo do Útero</a
+        ></span
+      >
+      <span
+        ><a
+          href="download/FormularioMamografia.pdf"
+          target="_blank"
+          rel="arquivopdf"
+          type="application.pdf"
+          >Requerimento mamografia</a
+        ></span
+      >
+      <span>Solicitação de exames</span>
+      <span>Solicitação de medicamentos</span>
+    </div>
+
+    <section class="dadosClinicos">
+      <p>Conduta:</p>
+      <textarea rows="8" cols="150"></textarea>
+    </section>
+
+    <div class="button"><button>Grava Atendimento</button></div>
+  </body>
+</html>

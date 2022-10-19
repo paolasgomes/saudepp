@@ -1,0 +1,56 @@
+header.pagina02 {
+    background-color: var(--color1);
+    padding: 10px 10px;
+    display: flex;
+    gap: 300px;
+    box-sizing: border-box;
+
+}
+
+header.pagina02 h1 {
+    font-size: 1rem;
+    padding-top: 0.2%;
+}
+
+header.pagina02 p {
+    font-size: 0.8rem;
+    padding-top: 0.2%;
+    font-weight: light;
+}
+
+header.pagina02 p select {
+    margin-right: 10px;
+    color: black;
+}
+
+header.pagina02 p select option {
+    color: black;
+}
+
+header.pagina02 p.logout {
+    margin-left: 30%;
+    font-size: 1.5rem;
+    padding-bottom: 5px;
+}
+
+ul {
+    padding-top: 30px;
+}
+
+ul li {
+    color: var(--color2);
+    padding: 10px 50px;
+    font-size: 0.8rem;
+    text-align: justify;
+    list-style-type: square;
+
+}
+
+ul li a {
+    color: var(--color2);
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}

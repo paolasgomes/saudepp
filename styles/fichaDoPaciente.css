@@ -1,0 +1,216 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-top: 0.5vw;
+}
+
+header h1 {
+    color: orange;
+    margin-left: 30vw;
+    font-size: 2rem;
+
+
+}
+
+header div {
+    display: block;
+    box-sizing: border-box;
+}
+
+header div p {
+    color: black;
+    font-size: 0.8rem;
+
+}
+
+section {
+    display: flex;
+    gap: 30%;
+    margin-top: 2%;
+}
+
+section p {
+    color: black;
+    font-size: 1.3rem;
+
+}
+
+section p select {
+    color: black;
+}
+
+section p select option {
+    color: black;
+}
+
+section.infoOfClient {
+    color: black;
+    display: flex;
+}
+
+section.infoOfClient p {
+    display: flex;
+    color: black;
+}
+
+section.sinaisVitais {
+    display: flex;
+    gap: 2px;
+}
+
+section.sinaisVitais div.Biometria {
+    width: 400px;
+    height: 150px;
+    box-sizing: border-box;
+    background-color: #F0F8FF;
+}
+
+section.sinaisVitais div.Biometria h2 {
+    background-color: #98BCE4;
+    text-align: center;
+    color: black;
+}
+
+section.sinaisVitais div.Biometria p {
+    padding: 10px;
+    ;
+}
+
+section.sinaisVitais div.Biometria p input {
+    width: 80px;
+    color: black;
+}
+
+section.sinaisVitais div.sinaisVitais {
+    width: 1000px;
+    height: 150px;
+    box-sizing: border-box;
+    background-color: #F0F8FF;
+}
+
+section.sinaisVitais div.sinaisVitais h2 {
+    background-color: #98BCE4;
+    text-align: center;
+    color: black;
+}
+
+section.sinaisVitais div.sinaisVitais p {
+    padding: 10px;
+}
+
+section.sinaisVitais div.sinaisVitais p input {
+    width: 80px;
+    color: black;
+}
+
+section.sinaisVitais div.Glicemia {
+    width: 550px;
+    height: 150px;
+    box-sizing: border-box;
+    background-color: #F0F8FF;
+    text-align: center;
+}
+
+section.sinaisVitais div.Glicemia h2 {
+    background-color: #98BCE4;
+    text-align: center;
+    color: black;
+}
+
+section.sinaisVitais div.Glicemia p {
+    padding: 10px;
+}
+
+section.sinaisVitais div.Glicemia p input {
+    width: 50px;
+    color: black;
+}
+
+section.typeOfAtend {
+    background-color: #FCF8E3;
+    height: 250px;
+    width: 100%;
+    margin-top: 5px;
+    
+    
+}
+
+section.typeOfAtend label {
+    font-size: 0.9rem;
+    color: black;
+    
+   
+}
+
+section.dadosClinicos {
+    display: flex;
+    gap: 10px;
+}
+
+section.dadosClinicos p {
+    padding-left: 20px;
+}
+
+section.dadosClinicos textarea {
+    color: black;
+    font-size: 16px;
+   
+}
+
+section.procediments {
+    background-color: #FCF8E3;
+    height: 250px;
+    width: 100%;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+section.procediments h2.proced {
+    color: black;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+section.procediments label {
+        font-size: 0.9rem;
+        color: black;
+        display: flex;
+        gap: 0.5rem;
+}
+
+div.request {
+    display: flex;
+    gap: 40px;
+}
+
+div.request span {
+    color: blue;
+    font-size: 1.2rem;
+
+}
+
+div.request span a {
+    color: blue;
+    text-decoration: none;
+
+}
+
+div.request span a:hover {
+    background-color: rgba(77, 77, 143, 0.384);
+}
+
+div.button {
+   display: flex;
+   justify-content: center;
+    
+}
+
+button {
+    background-color: red;
+    border: 0;
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 5px;
+}
