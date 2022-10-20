@@ -188,3 +188,49 @@ button {
     border-radius: 5px;
     padding: 5px;
 }
+
+@media (max-width: 1250px) {
+
+    section p {
+        font-size: 1rem;
+    }
+
+    section.dadosClinicos {
+        padding-left: 0;
+
+    }
+
+}
+
+@media (max-width: 760px) {
+
+    header h1 {
+        font-size: 1.5rem;
+    }
+
+    header div p {
+        font-size: 0.6rem;
+    }
+
+    section p,
+    select {
+        font-size: 0.7rem;
+    }
+}
+
+@media (max-width:550px) {
+
+    section.sinaisVitais,
+    section.typeOfAtend,
+    section.procediments {
+        width: 100%;
+        min-width: 550px;
+
+    }
+
+    div.request span,
+    div.request span a {
+        font-size: 0.8rem;
+
+    }
+}

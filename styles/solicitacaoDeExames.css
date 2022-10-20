@@ -1,0 +1,85 @@
+header {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+div,
+select,
+option {
+    color: black;
+    margin: 1.5rem 0;
+    font-size: 1.3rem;
+}
+
+section {
+    margin: 2rem 0;
+}
+
+header section p {
+    color: black;
+
+}
+
+table caption,
+table th {
+    color: black;
+}
+
+td {
+    border: 1px solid black;
+    padding: 15px;
+    color: black;
+    border-radius: 5px;
+
+}
+
+tr.aditional td {
+    color: red;
+}
+
+@media (max-width: 830px) {
+
+    div,
+    select,
+    option {
+        margin: 1rem 0;
+        font-size: 1rem;
+    }
+
+    section p {
+        font-size: 0.8rem;
+    }
+
+    td {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 400px) {
+
+    header {
+        display: flex;
+        gap: 0;
+    }
+
+    div,
+    select,
+    option {
+        margin: 1rem 0;
+        font-size: 0.8rem;
+    }
+
+    section p {
+        font-size: 0.6rem;
+    }
+
+
+    td {
+        padding: 2px;
+        font-size: 0.8rem;
+
+    }
+
+
+}
