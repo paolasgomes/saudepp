@@ -1,4 +1,3 @@
-
 header {
     display: flex;
     justify-content: space-between;
@@ -37,22 +36,16 @@ section p {
 
 }
 
-section p select {
-    color: black;
-}
-
+section p select,
 section p select option {
     color: black;
 }
 
-section.infoOfClient {
-    color: black;
-    display: flex;
-}
 
+section.infoOfClient,
 section.infoOfClient p {
-    display: flex;
     color: black;
+    display: flex;
 }
 
 section.sinaisVitais {
@@ -67,18 +60,23 @@ section.sinaisVitais div.Biometria {
     background-color: #F0F8FF;
 }
 
-section.sinaisVitais div.Biometria h2 {
+section.sinaisVitais div.Biometria h2,
+section.sinaisVitais div.sinaisVitais h2,
+section.sinaisVitais div.Glicemia h2 {
     background-color: #98BCE4;
     text-align: center;
     color: black;
 }
 
-section.sinaisVitais div.Biometria p {
+section.sinaisVitais div.Biometria p,
+section.sinaisVitais div.sinaisVitais p,
+section.sinaisVitais div.Glicemia p {
     padding: 10px;
     ;
 }
 
-section.sinaisVitais div.Biometria p input {
+section.sinaisVitais div.Biometria p input,
+section.sinaisVitais div.sinaisVitais p input {
     width: 80px;
     color: black;
 }
@@ -90,20 +88,6 @@ section.sinaisVitais div.sinaisVitais {
     background-color: #F0F8FF;
 }
 
-section.sinaisVitais div.sinaisVitais h2 {
-    background-color: #98BCE4;
-    text-align: center;
-    color: black;
-}
-
-section.sinaisVitais div.sinaisVitais p {
-    padding: 10px;
-}
-
-section.sinaisVitais div.sinaisVitais p input {
-    width: 80px;
-    color: black;
-}
 
 section.sinaisVitais div.Glicemia {
     width: 550px;
@@ -113,15 +97,6 @@ section.sinaisVitais div.Glicemia {
     text-align: center;
 }
 
-section.sinaisVitais div.Glicemia h2 {
-    background-color: #98BCE4;
-    text-align: center;
-    color: black;
-}
-
-section.sinaisVitais div.Glicemia p {
-    padding: 10px;
-}
 
 section.sinaisVitais div.Glicemia p input {
     width: 50px;
@@ -133,15 +108,14 @@ section.typeOfAtend {
     height: 250px;
     width: 100%;
     margin-top: 5px;
-    
-    
+
+
 }
 
 section.typeOfAtend label {
     font-size: 0.9rem;
     color: black;
-    
-   
+
 }
 
 section.dadosClinicos {
@@ -156,7 +130,7 @@ section.dadosClinicos p {
 section.dadosClinicos textarea {
     color: black;
     font-size: 16px;
-   
+
 }
 
 section.procediments {
@@ -174,10 +148,10 @@ section.procediments h2.proced {
 }
 
 section.procediments label {
-        font-size: 0.9rem;
-        color: black;
-        display: flex;
-        gap: 0.5rem;
+    font-size: 0.9rem;
+    color: black;
+    display: flex;
+    gap: 0.5rem;
 }
 
 div.request {
@@ -202,9 +176,9 @@ div.request span a:hover {
 }
 
 div.button {
-   display: flex;
-   justify-content: center;
-    
+    display: flex;
+    justify-content: center;
+
 }
 
 button {

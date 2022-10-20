@@ -3,7 +3,7 @@ header.pagina02 {
     padding: 10px 10px;
     display: flex;
     gap: 300px;
-    box-sizing: border-box;
+    width: 100%;
 
 }
 
@@ -53,4 +53,52 @@ ul li a {
 
 ul li a:hover {
     text-decoration: underline;
+}
+
+@media (max-width:1500px) {
+    header.pagina02 {
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+
+    header.pagina02 p.logout {
+        padding: 0 5%;
+        margin: 0;
+    }
+}
+
+@media (max-width:1000px) {
+    header.pagina02 {
+        gap: 15%;
+
+    }
+
+    header.pagina02 p.logout {
+        margin: 0;
+        padding: 0 4%;
+    }
+}
+
+@media (max-width: 500px) {
+    header.pagina02 {
+        gap: 2%;
+        font-size: 0.4rem;
+        display: block;
+        padding: 10px 0 10px 0;
+
+    }
+
+    header.pagina02 p select {
+        width: 40%;
+        margin-top: 10px;
+
+    }
+
+
+    header.pagina02 p.logout {
+        margin: 0;
+        text-align: right;
+        padding-top: 10px;
+
+    }
 }

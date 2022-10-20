@@ -8,9 +8,33 @@
     ;
     color: #FFFFFF;
     font-weight: bold;
+
 }
 
 :root {
     --color1: #FF80C0;
     --color2: #0B5ED7;
+}
+
+html {
+    font-size: 81.25%;
+}
+
+@media screen and (min-width: 1024px) {
+    html {
+        font-size: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    html {
+        font-size: 93.75%;
+    }
+}
+
+@media screen and (min-width: 640px) {
+    html {
+
+        font-size: 87.5%;
+    }
 }
